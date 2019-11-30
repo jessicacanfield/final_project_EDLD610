@@ -62,6 +62,7 @@ data <- data %>%
 data <- data %>% 
   filter(Q6_8 == 6 & Q5_14 == 3)
 
+
 #filter out those who took the survey too quickly (the time cut offs were predetermined and based on which condition the participant was randomly assigned to)
 data <- data %>% 
   pivot_longer(cols = Video_DO_V4:Video_DO_V1, 
@@ -270,3 +271,18 @@ r_refs(file = "r-references.bib")
 
 <div id = "refs"></div>
 \endgroup
+
+
+Jim Wright Peer Review: 
+
+Hi guys, I'm so impressed by the script for your final project. I learned so much walking through it, especially how you used pivot_longer() to tidy your data set. 
+
+Another thing I really appreciated from reading your script was how to code survey responses with scoreitems(). I'm hoping to use R to code the responses of a survey from the master's students in the CDS program, so I will certainly be referencing this script again for tips on doing that. 
+
+I think your plots are amazing. How everything was recoded when needed seemed to be perfect. Again, that's something that gives me a hard time, so I look forward to referencing this in the future for following a strong example. 
+
+Honestly, I don't think there's much you need to do to improve on. Every required function was utilized flawlessly to the best of my knowledge. Your RMD file was very easy to follow and well organized. I think you did a tremendous job, and I'm very eager to listen to your presentation next week. 
+
+Thanks for the opportunity to review your work and pick up some tips to use in the future!
+
+Jim
